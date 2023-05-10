@@ -1,0 +1,41 @@
+# maven ignore
+target/
+bin/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.gz
+*.tar.gz
+*.log
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.factorypath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+*.orig
+
+# flatten ignore
+.flattened-pom.xml
+
+# license check result
+license-list.txt
